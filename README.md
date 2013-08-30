@@ -5,6 +5,8 @@ Simple local to S3 sync tool.
 ## Getting Started
 Install the module with: `npm install me2S3`
 
+===========
+
 ## Documentation
 _(Coming soon)_
 
