@@ -2,6 +2,7 @@ var fs = require('fs');
 var contents = fs.readFileSync(__dirname+'/.passwords', 'utf-8');
 var config = JSON.parse(contents);
 
+//Create client.
 var client = require('./lib/me2S3').createService({
     key: config.key,
     secret: config.secret,
